@@ -1,5 +1,5 @@
 # ACS-SMTP
-Takes SMTP traffic and sends it through Azure Communication Services
+Takes SMTP traffic and sends it through Azure Communication Services. Designed to be used alongside GoPhish
 ## Configuration
 - Will need to make sure sending profile has same domain as ACS email resource
 - Will need the python application to be a registered Entra application:
