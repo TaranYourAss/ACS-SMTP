@@ -189,13 +189,6 @@ async def main(AzureEmailClient):
         print("DONE")
         exit()
 
-def loading(string):
-    print(string, end="", flush=True)
-    for _ in range(10):
-        time.sleep(0.5)
-        print(".", end="", flush=True)
-    print("DONE")
-
 if __name__ == "__main__":
     with open("config.json") as config_file:
         config = json.load(config_file)
